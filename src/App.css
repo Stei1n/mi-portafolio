@@ -1,0 +1,110 @@
+/* --- Estilos Generales para el CV --- */
+.cv-interactiva {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #333; /* Fondo oscuro, como en tu imagen */
+    color: #fff;
+}
+
+/* Estilos de Navegación de Módulos */
+.project-navigation button {
+    background-color: #555;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin-right: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.project-navigation button:hover {
+    background-color: #777;
+}
+
+hr {
+    border-color: #555;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+/* --- Estilos para la Calculadora --- */
+
+.modulo-calculadora {
+    margin: 20px auto;
+    width: 300px; /* Ancho fijo */
+    padding: 20px;
+    border: 1px solid #444;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+    background-color: #2a2a2a; /* Fondo oscuro de la calculadora */
+    box-sizing: border-box; 
+}
+
+/* Pantalla */
+.calculator-display {
+    background-color: #111;
+    color: #0f0; /* Verde neón para el display */
+    padding: 15px 10px;
+    text-align: right;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    overflow-x: auto; 
+    font-family: 'Monospace', monospace;
+}
+
+.input-line {
+    font-size: 1.8em; 
+    min-height: 1.2em;
+    white-space: nowrap;
+}
+
+.result-line {
+    font-size: 1em;
+    color: #aaa;
+    min-height: 1em;
+}
+
+/* --- Botones --- */
+
+.clear-button {
+    background-color: #dc3545;
+    color: #fff;
+    width: 100%;
+    padding: 15px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.buttons-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Crea la cuadrícula 4x4 */
+    gap: 10px;
+}
+
+.modulo-calculadora .buttons-grid button {
+    padding: 15px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.1s;
+}
+
+.number {
+    background-color: #555;
+    color: white;
+}
+
+.operator {
+    background-color: #ff9500; /* Naranja */
+    color: #fff;
+}
+
+.equals {
+    background-color: #007bff;
+    color: #fff;
+}
