@@ -1,5 +1,3 @@
-// src/components/Portafolio/PortfolioContainer.jsx
-
 // Necesito 'useState' de React. Esta es la herramienta que me permite 
 // que el componente 'recuerde' qué botón he presionado (el estado).
 import React, { useState } from 'react';
